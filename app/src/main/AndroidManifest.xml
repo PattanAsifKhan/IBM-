@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ibm.mobileappbuilder.grama20160930135917" >
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication">
+
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.AsifDSItemFormActivity"
+            android:label="@string/asifDSItemFormActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.HELPDSItemFormActivity"
+            android:label="@string/helpdsItemFormActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.FARMERSIDDSItemFormActivity"
+            android:label="@string/farmersiddsItemFormActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.FARMERSDSItemFormActivity"
+            android:label="@string/farmersdsItemFormActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.LOCALMARTDSItemFormActivity"
+            android:label="@string/localmartdsItemFormActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.GRAMAMain"
+            android:label="@string/gramaMain"
+            android:theme="@style/AppTheme.Drawer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+      </activity>
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.FirstActivity"
+            android:label="@string/firstActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.GOTALKActivity"
+            android:label="@string/gotalkActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.GOTALKDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.HELPActivity"
+            android:label="@string/helpActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.HELPDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.LOANActivity"
+            android:label="@string/loanActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.LOANDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.FARMERSIDActivity"
+            android:label="@string/farmersidActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.FARMERSIDDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.FARMERSCOMMUNITYActivity"
+            android:label="@string/farmerscommunityActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.FARMERSCOMMUNITYDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.LOCALMARTActivity"
+            android:label="@string/localmartActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.grama20160930135917.ui.LOCALMARTDetailActivity"
+        />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:theme="@style/NoActionBar"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.worklight.wlclient.ui.UIActivity"/>
+    </application>
+
+</manifest>

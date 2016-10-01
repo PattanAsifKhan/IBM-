@@ -1,0 +1,63 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:scrollbarStyle="outsideOverlay"
+>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:showDividers="middle"
+        android:divider="@drawable/divider"
+    >
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/helpds_name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/FormField.EditLayout"
+        >
+            <EditText
+                android:id="@+id/helpds_name"
+                android:layout_width="match_parent"
+                android:layout_height="?listPreferredItemHeightSmall"
+                android:hint="NAME"
+                style="@style/EditTextStyle"
+            >
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/helpds_email_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/FormField.EditLayout"
+        >
+            <EditText
+                android:id="@+id/helpds_email"
+                android:layout_width="match_parent"
+                android:layout_height="?listPreferredItemHeightSmall"
+                android:hint="EMAIL"
+                style="@style/EditTextStyle"
+            >
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/helpds_phoneno_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/FormField.EditLayout"
+        >
+            <EditText
+                android:id="@+id/helpds_phoneno"
+                android:layout_width="match_parent"
+                android:layout_height="?listPreferredItemHeightSmall"
+                android:hint="PHONE NO"
+                style="@style/EditTextStyle"
+            >
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+</ScrollView>
+

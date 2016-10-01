@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="app_name">GRAMA</string>
+
+    <!-- Activity Titles -->
+    <string formatted="false" name="asifDSItemFormActivity"></string>
+    <string formatted="false" name="helpdsItemFormActivity"></string>
+    <string formatted="false" name="farmersiddsItemFormActivity"></string>
+    <string formatted="false" name="farmersdsItemFormActivity"></string>
+    <string formatted="false" name="localmartdsItemFormActivity"></string>
+    <string formatted="false" name="gramaMain">GRAMA</string>
+    <string formatted="false" name="firstActivity">GRAMA</string>
+    <string formatted="false" name="gotalkActivity">GO-TALK</string>
+    <string formatted="false" name="helpActivity">HELP</string>
+    <string formatted="false" name="loanActivity">LOAN</string>
+    <string formatted="false" name="farmersidActivity">FARMERS ID</string>
+    <string formatted="false" name="farmerscommunityActivity">FARMERS COMMUNITY</string>
+    <string formatted="false" name="localmartActivity">LOCAL MART</string>
+</resources>
+
+

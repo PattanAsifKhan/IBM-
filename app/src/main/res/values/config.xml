@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Url for ibmmobileappbuilder-hosted data -->
+    <string name="dynamic_url">https://appbuilder.ibmcloud.com/api/app/data/</string>
+
+    <!-- authentication for app services -->
+    <string name="api_key">bpS351dE6GggQnYDI0Th2yz9K0OVDZ5QB7EHptOyWk</string>
+    <string name="app_id">71b18a27-02a5-42e3-87a9-dd6e47e68990</string>
+
+    <string name="login_url">https://appbuilder.ibmcloud.com/api/app/login/71b18a27-02a5-42e3-87a9-dd6e47e68990</string>
+</resources>
+
+
